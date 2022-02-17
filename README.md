@@ -3,5 +3,5 @@
 Group Member:
 
 Jin Lu
-osiah Peedikayil
+Josiah Peedikayil
 Nicholas Harney
