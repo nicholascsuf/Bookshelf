@@ -1,10 +1,14 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int main()
 {
 
-cout << "Hello World!";
+string memberName = "";
+cout << "Enter Member's name: ";
+
+getline(cin,memberName);
+cout << "Group Member's Name : " + memberName;
 
 }
