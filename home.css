@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  padding: 100px 0;
+}
+/* navbar styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  height: auto;
+}
+.navbar.sticky {
+  padding: 15px 0;
+  background: rgb(244, 243, 221);
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  font-size: 50px;
+  color: rgb(92, 39, 6);
+  font-weight: 500;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: rgb(92, 39, 6);
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: wheat;
+}
+/* home styling */
+.home {
+  display: flex;
+  background-color: seashell;
+  height: 100vh;
+  color: black;
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .max-width {
+  margin: auto 0 auto 40px;
+}
+.home .home-content .text-1 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-left: -3px;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .home-content .text-1 span {
+  font-weight: 800;
+  color: rgb(58, 63, 80);
+}
+
+.book {
+  font-family: "Ubuntu", sans-serif;
+}
+.book .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.book .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.book .title::after {
+  content: "Enter book's ISBN number, Author's first name, or last name to search.";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  color: coral;
+  padding: 5px;
+  background: white;
+  transform: translateX(-50%);
+}
+.book .book-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.book .book-content .left {
+  margin-left: 50px;
+}
+.book .book-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.book .book-content .right {
+  margin-right: 250px;
+}
+.input-box{
+  top: relative;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  background: transparent;
+}
+.search-btn{
+  width: 40%;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgba(240, 244, 126, 0.946),rgb(82, 207, 180));
+}
+/* account styling */
+.account {
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+  background: rgb(237, 206, 195);
+}
+.account .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.account .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.account .title::after {
+  content: "My Bookshelf";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  color: coral;
+  padding: 5px;
+  background: rgb(237, 206, 195);
+  transform: translateX(-50%);
+}
+.account .account-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+.account .account-content .account-text {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.account .account-content .left {
+  margin-left: 40px;
+}
+.account .account-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.login-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgba(244, 228, 159, 0.898),rgb(231, 186, 149));
+}
+.account .account-content .card {
+  width: calc(33% - 20px) ;
+  height: 500px;
+  background: #fcf3e8;
+  border-radius: 6px;
+  padding: 20px 30px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 35px;
+  transition: all 0.3s ease;
+  float: right;
+}
+.account .account-content .card:nth-of-type(3n) {
+  margin-right: 0;
+}
+.account .account-content .card .label{
+  font-size: 20;
+}
+.account .account-content .card .label .input-field{
+  width: 70%;
+}
+.account .account-content .card .box h1{
+  font-size: 40px;
+}
+
+
+/* more styling */
+.more {
+  font-family: "Ubuntu", sans-serif;
+}
+.more .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.more .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.more .title::after {
+  content: "How to Reach Us";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  color: coral;
+  padding: 5px;
+  background: white;
+  transform: translateX(-50%);
+}
+.more .more-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.more .more-content .left {
+  margin-left: 50px;
+}
+.more .more-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.more .more-content .right {
+  margin-left: 100px;
+  
+}
+.more .more-content .right2 {
+  margin-right: 150px;
+
+}
+.more .more-content .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  
+}
+.more .more-content .right p {
+  text-align: justify;
+}
+.more .more-content .right .icons {
+  margin: 10px 0;
+}
+.more .more-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.more .more-content .row .info {
+  margin-left: 30px;
+}
+.more .more-content .row .info .head {
+  font-weight: bolder;
+}
+.more .more-content .row i {
+  font-size: 25px;
+  color: orange;
+}
+
+/* footer styling */
+footer {
+  background: rgb(244, 243, 221);
+  padding: 20px 23px;
+  color: rgb(92, 39, 6);
+  text-align: center;
+}
+footer span a {
+  color: black;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
