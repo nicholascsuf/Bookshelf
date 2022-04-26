@@ -70,6 +70,51 @@ o   In the argument list, there MUST NOT be a space before each comma, and there
 o   Lines SHOULD NOT be longer than 80 characters; lines longer than that SHOULD be split into multiple subsequent lines of no more than 80 characters each.
 o Link   https://www.php-fig.org/psr/psr-2/
 
+For HTML:
+
+HTML Coding Style:
+
+Use Lowercase Attribute Names
+GOOD: <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+BAD: <a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+Close All HTML Elements
+GOOD:
+<section>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</section>
+
+BAD:
+<section>
+  <p>This is a paragraph.
+  <p>This is a paragraph.
+</section>
+
+Use Lowercase Element Names
+GOOD: 
+<body>
+<p>This is a paragraph.</p>
+</body>
+
+BAD:
+<BODY>
+<P>This is a paragraph.</P>
+</BODY>
+Always Declare Document Type
+<!DOCTYPE html>
+
+Always Quote Attribute Values
+Good:
+<table class="striped">
+
+Bad:
+<table class=striped>
+Spaces and Equal Signs
+Good:
+<link rel="stylesheet" href="styles.css">
+Bad:
+<link rel = "stylesheet" href = "styles.css">
 
 
 
