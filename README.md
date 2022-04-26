@@ -8,7 +8,7 @@ Jin Lu,  jlu28@csu.fullerton.edu
 Josiah Peedikayil, josiahpeedikayil@csu.fullerton.edu
 Nicholas Harney, nicholas.harney@csu.fullerton.edu
 
-License Information: See License.MD
+License Information: See https://github.com/nicholascsuf/Bookshelf/blob/main/License.MD
 
 To access the website:
 Visit http://164.92.118.198/
