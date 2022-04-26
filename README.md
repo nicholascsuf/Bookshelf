@@ -1,7 +1,7 @@
 #Bookshelf README Documentation
 
-Group Member:
-
+**Group Member:
+**
 Jin Lu,  jlu28@csu.fullerton.edu
 Josiah Peedikayil, josiahpeedikayil@csu.fullerton.edu
 Nicholas Harney, nicholas.harney@csu.fullerton.edu
@@ -13,8 +13,8 @@ Login Credentials: book
 Password: fullerton
 
 
-How to Run and test project:
-
+**How to Run and test project:
+**
 1) Visit the following URL in a web browser http://164.92.118.198/ 
 
 2) Use the following login credentials to login to the webpage
@@ -31,16 +31,18 @@ Password: fullerton
     - Press the "Add Book" Button
 
 
-Demonstration of differences between plan and reality:
+**Demonstration of differences between plan and reality:
+**
 
-Coding Style Used: 
 
-Workload Distribution:
+**Coding Style Used: **
+
+**Workload Distribution:**
 Jin Lu: Front end design and development, Gathering of data for books
 Josiah Peedikayil: Web Hosting, server installation, server management and maintenance
 Nicholas Harney: Database creation, PHP code implementation, Connection of front end to back end 
 
-Testing Done:
+**Testing Done:**
 Unit tests were performed for each part of the website.
 A description of the following tests.
 
@@ -57,13 +59,11 @@ Back End:
 
 The insert book capabilities tested as follows:
 
-Front END:
+Front End
 1) Blank Book name was inserted, result - successfully displays error
 2) Blank Book ISBN was inserted, result- sucessfully displays error
 3) Blank Author last name was inserted,  result- sucessfully displays error
 4) Blank Author first name was inserted,  result- sucessfully displays error
-
-
 Back End:
 1) Using the OS X application, mySQL workbench, to manually run the following SQL statement:
  "INSERT INTO books (isbn,book_name,author_ln,author_fn,genre,review,price,quantity)VALUES('$isbn','$b_name','$l_name','$f_name','default','0','10','10')";
