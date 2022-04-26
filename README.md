@@ -65,9 +65,10 @@ Front END:
 
 
 Back End:
-1) Using the application, mySQL workbench to manually run the following SQL statement. "SELECT * FROM bookshelf.books;"
+1) Using the OS X application, mySQL workbench, to manually run the following SQL statement:
+ "INSERT INTO books (isbn,book_name,author_ln,author_fn,genre,review,price,quantity)VALUES('$isbn','$b_name','$l_name','$f_name','default','0','10','10')";
 
 The view all book capabilities tested as follows:
-1) Using the application, mySQL workbench to manually run the following SQL statement. "SELECT * FROM bookshelf.books;"
+1) Using the OS X application, mySQL workbench, to manually run the following SQL statement. "SELECT * FROM bookshelf.books;"
 2) Pressing on the button "View all current inventory" on the front end
 
