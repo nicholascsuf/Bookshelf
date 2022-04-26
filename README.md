@@ -73,49 +73,9 @@ o Link   https://www.php-fig.org/psr/psr-2/
 
 For HTML:
 
-HTML Coding Style:
+For HTML: HTML Coding Style:
+See Google Doc: https://docs.google.com/document/d/1QfxHKYJCAh8z0sVUf127Ca8rPKB8zk4oyFPw_dwxYFA/edit?usp=sharing
 
-Use Lowercase Attribute Names
-GOOD: <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
-BAD: <a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
-
-Close All HTML Elements
-GOOD:
-<section>
-  <p>This is a paragraph.</p>
-  <p>This is a paragraph.</p>
-</section>
-
-BAD:
-<section>
-  <p>This is a paragraph.
-  <p>This is a paragraph.
-</section>
-
-Use Lowercase Element Names
-GOOD: 
-<body>
-<p>This is a paragraph.</p>
-</body>
-
-BAD:
-<BODY>
-<P>This is a paragraph.</P>
-</BODY>
-Always Declare Document Type
-<!DOCTYPE html>
-
-Always Quote Attribute Values
-Good:
-<table class="striped">
-
-Bad:
-<table class=striped>
-Spaces and Equal Signs
-Good:
-<link rel="stylesheet" href="styles.css">
-Bad:
-<link rel = "stylesheet" href = "styles.css">
 
 
 **Workload Distribution:** 
