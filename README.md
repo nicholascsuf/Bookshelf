@@ -15,7 +15,7 @@ Password: fullerton
 
 How to Run and test project:
 
-1) Visit the following URL in a web brwoser http://164.92.118.198/ 
+1) Visit the following URL in a web browser http://164.92.118.198/ 
 
 2) Use the following login credentials to login to the webpage
 Username: book
