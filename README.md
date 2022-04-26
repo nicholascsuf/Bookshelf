@@ -24,7 +24,7 @@ Password: fullerton
 3) Click the "View All Current Inventory" button to display all the books that are currently in the inventory.
 4) To test the search capabilities, Enter a Book Title OR ISBN number, then press the "Search" button.
 5) To test the insert book functionalities, scroll down to "Add Book to Bookshelf"
-    -Enter Book Name
+    - Enter Book Name
     - Enter Author First Name
     - Enter Author Last Name
     - Enter ISBN number
