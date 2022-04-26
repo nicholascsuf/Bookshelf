@@ -1,4 +1,5 @@
-// Author: Jin Lu
+//Author: Jin Lu
+//Email: jlu28@csu.fullerton.edu
 //Date Created: 04-20-2022
 //Copyright © Jin Lu. All rights reserved. */
 //Last modified by NicholasCSUF 4-25-2022
