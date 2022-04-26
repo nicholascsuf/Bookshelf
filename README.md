@@ -49,13 +49,14 @@ Included Checkout features
 Seperate interface for cashier and customer
 Customer information table
 The account section was suppose to be a customer interface also, means when a customer log in to the page, they can edit their profile and book list.
+User can leave review
 
 
 The final version:
 Combined interfaces for cashier and customer as a result of time constraints
 Customer information table was not included as a result of time constraints, more difficult to implement than we originally thought.
 There is actually only one login that works, and the sign up function does not work.  Only the manager can sign in and add the book in the account section.
-
+User can't leave review
 
 
 
