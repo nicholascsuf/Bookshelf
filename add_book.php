@@ -1,8 +1,8 @@
 
-// Author: Nicholas J. Harney
+// Author: NicholasCSUF
 //CWID:  889345928
 //Date Created: 04-20-2022
-//Copyright © Nicholas J. Harney. All rights reserved. */
+//Copyright © NicholasCSUF. All rights reserved. */
 
 <?php
 
