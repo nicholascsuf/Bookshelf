@@ -1,7 +1,6 @@
 #Bookshelf README Documentation
 
-Version History: 
-Version 1 - April 25th 2022
+
 
 Group Members:
 Jin Lu,  jlu28@csu.fullerton.edu
@@ -129,7 +128,15 @@ Jin Lu: Front end design and development, Gathering of data for books
 Josiah Peedikayil: Web Hosting, server installation, server management and maintenance
 
 Nicholas Harney: Database creation, PHP code implementation, Connection of front end to back end 
+    
+Git commit history: We used Discord to communicate with each other, and did not have much github commit history. The github was used for functionality  to the html pages. 
 
+    
+** Version History:** 
+Version 1 - April 25th 2022. The only version as of April 25th, 2022
+    
+    
+    
 **Testing Done:**
 Unit tests were performed for each part of the website.
 A description of the following tests.
