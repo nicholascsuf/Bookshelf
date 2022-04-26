@@ -1,5 +1,8 @@
 #Bookshelf README Documentation
 
+Version History: 
+Version 1 - April 25th 2022
+
 Group Members:
 Jin Lu,  jlu28@csu.fullerton.edu
 Josiah Peedikayil, josiahpeedikayil@csu.fullerton.edu
@@ -34,6 +37,8 @@ Visit http://164.92.118.198/
 
 Login Credentials: book
 Password: fullerton
+
+
 
 
 **How to Run and test project:
@@ -94,4 +99,6 @@ Back End:
 The view all book capabilities tested as follows:
 1) Using the OS X application, mySQL workbench, to manually run the following SQL statement. "SELECT * FROM bookshelf.books;"
 2) Pressing on the button "View all current inventory" on the front end
+
+
 
