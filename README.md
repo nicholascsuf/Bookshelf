@@ -40,12 +40,32 @@ Password: fullerton
 **Demonstration of differences between plan and reality:
 **
 
+Trello Board for project management: https://trello.com/b/t7V5k6da/bookshelf-the-librarians
+Development process: The project was actually more difficult to implement than we originally thought. 
+Differences between original version and final version.
+
+The original version:
+Included Checkout features
+Seperate interface for cashier and customer
+Customer information table
+The account section was suppose to be a customer interface also, means when a customer log in to the page, they can edit their profile and book list.
+
+
+The final version:
+Combined interfaces for cashier and customer as a result of time constraints
+Customer information table was not included as a result of time constraints, more difficult to implement than we originally thought.
+There is actually only one login that works, and the sign up function does not work.  Only the manager can sign in and add the book in the account section.
+
+
+
 
 **Coding Style Used: **
 
 **Workload Distribution:**
 Jin Lu: Front end design and development, Gathering of data for books
+
 Josiah Peedikayil: Web Hosting, server installation, server management and maintenance
+
 Nicholas Harney: Database creation, PHP code implementation, Connection of front end to back end 
 
 **Testing Done:**
