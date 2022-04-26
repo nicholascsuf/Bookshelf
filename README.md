@@ -30,3 +30,44 @@ Password: fullerton
     - Enter ISBN number
     - Press the "Add Book" Button
 
+
+Demonstration of differences between plan and reality:
+
+Coding Style Used: 
+
+Workload Distribution:
+Jin Lu: Front end design and development, Gathering of data for books
+Josiah Peedikayil: Web Hosting, server installation, server management and maintenance
+Nicholas Harney: Database creation, PHP code implementation, Connection of front end to back end 
+
+Testing Done:
+Unit tests were performed for each part of the website.
+A description of the following tests.
+
+The search capabilities tested as follows:
+
+Front END:
+1) Blank Search Title was input, result - successfully displays error
+2) Blank ISBN was inserted, result- sucessfully displays error
+3) Search Title was input known not to be in database - successfully displays no results found
+4) ISBN not known to be in database - successfully displays no results found
+
+Back End:
+
+
+The insert book capabilities tested as follows:
+
+Front END:
+1) Blank Book name was inserted, result - successfully displays error
+2) Blank Book ISBN was inserted, result- sucessfully displays error
+3) Blank Author last name was inserted,  result- sucessfully displays error
+4) Blank Author first name was inserted,  result- sucessfully displays error
+
+
+Back End:
+1) Using the application, mySQL workbench to manually run the following SQL statement. "SELECT * FROM bookshelf.books;"
+
+The view all book capabilities tested as follows:
+1) Using the application, mySQL workbench to manually run the following SQL statement. "SELECT * FROM bookshelf.books;"
+2) Pressing on the button "View all current inventory" on the front end
+
