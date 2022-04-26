@@ -1,3 +1,9 @@
+// Author: Jin Lu
+//Date Created: 04-20-2022
+//Copyright © Jin Lu. All rights reserved. */
+//Last modified by NicholasCSUF 4-25-2022
+
+
 <?php
 include "config.php";
 
