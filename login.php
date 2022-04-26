@@ -33,7 +33,7 @@ if(isset($_POST['but_submit'])){
 
 ?>
 
-<html>
+<!DOCTYPE html>
 <head>
     <title>Login to Bookshelf</title>
     <link rel="stylesheet" href="login_register.css">
