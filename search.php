@@ -1,3 +1,10 @@
+
+//Author: NicholasCSUF
+//Date Created: 04-20-2022
+//Copyright © NicholasCSUF. All rights reserved. 
+
+
+
 <?php
 
 $search = $_POST['search'];
