@@ -1,7 +1,6 @@
 #Bookshelf README Documentation
 
-**Group Member:
-**
+Group Members:
 Jin Lu,  jlu28@csu.fullerton.edu
 Josiah Peedikayil, josiahpeedikayil@csu.fullerton.edu
 Nicholas Harney, nicholas.harney@csu.fullerton.edu
