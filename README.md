@@ -63,6 +63,8 @@ We used too much time. For time constraints we implemented whatever we can.
 
 **Coding Style Used: **
 
+The reason for chosing coding style is because we think that these coding style will make the code more readable and understandable to the readers and contributors
+
 For PHP:
 o   Using aspects from PHP Standard Recommendation  - 2
 o   Code MUST use 4 spaces for indenting, not tabs.
@@ -117,8 +119,11 @@ Bad:
 <link rel = "stylesheet" href = "styles.css">
 
 
-
-**Workload Distribution:**
+**Workload Distribution:** 
+    
+Everyone did the parts of the project that they are most comfortable with.
+    
+  Trello link: https://trello.com/b/t7V5k6da/bookshelf-the-librarians
 Jin Lu: Front end design and development, Gathering of data for books
 
 Josiah Peedikayil: Web Hosting, server installation, server management and maintenance
