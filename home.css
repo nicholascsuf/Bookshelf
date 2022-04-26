@@ -96,7 +96,7 @@ section {
   transform: translateX(-50%);
 }
 .book .title::after {
-  content: "Enter book's ISBN number, Author's first name, or last name to search.";
+  content: "Enter book's ISBN number, or book name to search.";
   position: absolute;
   bottom: -10px;
   left: 50%;
