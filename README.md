@@ -138,7 +138,7 @@ Version 1 - April 25th 2022. The only version as of April 25th, 2022
     
     
 **Testing Done:**
-Unit tests were performed for each part of the website.
+Unit tests were performed for each part of the website. We chose these tests because it was the most easiest way to test the small program. 
 A description of the following tests.
 
 The search capabilities tested as follows:
